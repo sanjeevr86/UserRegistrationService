@@ -11,12 +11,12 @@ public class User {
 	private String country;
 	
 	public User(){
-		
+		super();
 	}
 	
 	public User(String id, String firstNm, String lastNm, String addressLine, String city, String state,
 			String country) {
-		super();
+		
 		this.id = id;
 		this.firstNm = firstNm;
 		this.lastNm = lastNm;
