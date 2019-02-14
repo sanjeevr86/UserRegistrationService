@@ -24,7 +24,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 
 @XmlRootElement(name="reponse")
-@JsonSerialize(using=XmlAnyJsonSerialiser.class)
+//@JsonSerialize(using=XmlAnyJsonSerialiser.class)
 public class MetaDataType implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -32,14 +32,7 @@ public class MetaDataType implements Serializable {
 	protected MetaDataType limit;
 	@XmlAnyElement(lax=true)
 	protected List<Object> offset;
-	total
-	
-	serviceReferenceId
-	
-	outcome
-	
-	any
-	
+
 	
 	
 }

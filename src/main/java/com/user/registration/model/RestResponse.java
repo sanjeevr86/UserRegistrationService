@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 })
 
 @XmlRootElement(name="reponse")
-@JsonSerialize(using=XmlAnyJsonSerialiser.class)
+//@JsonSerialize(using=XmlAnyJsonSerialiser.class)
 public class RestResponse implements Serializable{
 
 	private static final long serialVersionUID = 1L;
